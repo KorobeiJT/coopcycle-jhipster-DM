@@ -48,6 +48,27 @@ public class CacheConfiguration {
             createCache(cm, fr.polytech.info4.domain.User.class.getName());
             createCache(cm, fr.polytech.info4.domain.Authority.class.getName());
             createCache(cm, fr.polytech.info4.domain.User.class.getName() + ".authorities");
+            createCache(cm, fr.polytech.info4.domain.Roles.class.getName());
+            createCache(cm, fr.polytech.info4.domain.Roles.class.getName() + ".comptes");
+            createCache(cm, fr.polytech.info4.domain.Compte.class.getName());
+            createCache(cm, fr.polytech.info4.domain.Compte.class.getName() + ".paniers");
+            createCache(cm, fr.polytech.info4.domain.Compte.class.getName() + ".restaurants");
+            createCache(cm, fr.polytech.info4.domain.Compte.class.getName() + ".systemePaiements");
+            createCache(cm, fr.polytech.info4.domain.Produit.class.getName());
+            createCache(cm, fr.polytech.info4.domain.Produit.class.getName() + ".paniers");
+            createCache(cm, fr.polytech.info4.domain.Panier.class.getName());
+            createCache(cm, fr.polytech.info4.domain.Panier.class.getName() + ".produits");
+            createCache(cm, fr.polytech.info4.domain.Restaurant.class.getName());
+            createCache(cm, fr.polytech.info4.domain.Restaurant.class.getName() + ".produits");
+            createCache(cm, fr.polytech.info4.domain.Restaurant.class.getName() + ".comptes");
+            createCache(cm, fr.polytech.info4.domain.Restaurant.class.getName() + ".courses");
+            createCache(cm, fr.polytech.info4.domain.Course.class.getName());
+            createCache(cm, fr.polytech.info4.domain.Course.class.getName() + ".restaurants");
+            createCache(cm, fr.polytech.info4.domain.SystemePaiement.class.getName());
+            createCache(cm, fr.polytech.info4.domain.SystemePaiement.class.getName() + ".comptes");
+            createCache(cm, fr.polytech.info4.domain.Cooperative.class.getName());
+            createCache(cm, fr.polytech.info4.domain.Cooperative.class.getName() + ".comptes");
+            createCache(cm, fr.polytech.info4.domain.Cooperative.class.getName() + ".restaurants");
             // jhipster-needle-ehcache-add-entry
         };
     }

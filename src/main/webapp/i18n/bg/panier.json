@@ -1,0 +1,26 @@
+{
+  "coopcycleApp": {
+    "panier": {
+      "home": {
+        "title": "Paniers",
+        "createLabel": "Създайте нов Panier",
+        "createOrEditLabel": "Създайте или редактирайте Panier",
+        "notFound": "Paniers не са намерени"
+      },
+      "created": "Създаден е нов Panier с идентификатор {{ param }}",
+      "updated": "Panier с идентификатор {{ param }} e oбновен",
+      "deleted": "Panier с идентификатор {{ param }} е изтрит",
+      "delete": {
+        "question": "Наистина ли искате да изтриете Panier {{ id }}?"
+      },
+      "detail": {
+        "title": "Panier"
+      },
+      "nbElements": "Nb Elements",
+      "price": "Price",
+      "produit": "Produit",
+      "course": "Course",
+      "compte": "Compte"
+    }
+  }
+}

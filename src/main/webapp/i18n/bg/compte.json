@@ -1,0 +1,33 @@
+{
+  "coopcycleApp": {
+    "compte": {
+      "home": {
+        "title": "Comptes",
+        "createLabel": "Създайте нов Compte",
+        "createOrEditLabel": "Създайте или редактирайте Compte",
+        "notFound": "Comptes не са намерени"
+      },
+      "created": "Създаден е нов Compte с идентификатор {{ param }}",
+      "updated": "Compte с идентификатор {{ param }} e oбновен",
+      "deleted": "Compte с идентификатор {{ param }} е изтрит",
+      "delete": {
+        "question": "Наистина ли искате да изтриете Compte {{ id }}?"
+      },
+      "detail": {
+        "title": "Compte"
+      },
+      "name": "Name",
+      "surname": "Surname",
+      "age": "Age",
+      "accountid": "Accountid",
+      "adress": "Adress",
+      "role": "Role",
+      "course": "Course",
+      "panier": "Panier",
+      "roles": "Roles",
+      "cooperative": "Cooperative",
+      "restaurant": "Restaurant",
+      "systemePaiement": "Systeme Paiement"
+    }
+  }
+}
